@@ -31,10 +31,6 @@ version = '2.0.4.7'
 group = 'net.slimevoid'
 archivesBaseName = 'SlimevoidLibrary'
 
-dependencies {
-    compile 'net.sourceforge.argo:argo:3.10'
-}
-
 minecraft {
     version = mc
     assetDir = 'eclipse/assets'

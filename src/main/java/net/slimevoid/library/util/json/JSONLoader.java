@@ -10,7 +10,6 @@ import java.util.HashMap;
 import net.slimevoid.library.core.SlimevoidCore;
 import net.slimevoid.library.core.lib.CoreLib;
 import net.slimevoid.library.util.FileUtils;
-import argo.saj.InvalidSyntaxException;
 
 public abstract class JSONLoader {
 
