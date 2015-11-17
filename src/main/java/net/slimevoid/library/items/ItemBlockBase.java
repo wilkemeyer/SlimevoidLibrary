@@ -40,8 +40,7 @@ public class ItemBlockBase extends ItemBlock {
     public String getUnlocalizedName(ItemStack itemstack) {
         String itemName = (String) this.itemBlockNames.get(Integer.valueOf(itemstack.getItemDamage()));
         if (itemName == null) {
-            FMLLog.severe("No Item Exists for this Item Damage");
-            itemName = "item.null";
+			return super.getUnlocalizedName();
         }
         return itemName;
     }
